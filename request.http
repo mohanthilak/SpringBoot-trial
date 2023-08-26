@@ -1,0 +1,13 @@
+POST http://localhost:8080/api/students/register
+Content-Type: application/json
+
+{
+    "name": "MD. Rafi",
+    "rollNumber": "20201CSEaaad0715"
+}
+###
+
+GET http://localhost:8080/api/students/all
+
+### 
+GET http://localhost:8080/api/students/23 
